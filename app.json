@@ -2,6 +2,12 @@
   "expo": {
     "plugins": [
       "@config-plugins/react-native-webrtc"
-    ]
+    ],
+    "android": {
+      "package": "com.jamesrez.valoria"
+    },
+    "ios": {
+      "bundleIdentifier": "com.jamesrez.valoria"
+    }
   }
 }
